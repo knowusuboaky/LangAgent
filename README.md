@@ -1,13 +1,13 @@
-# LangAgent 2.1.1
+# langagent 2.1.5
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Versions](https://img.shields.io/pypi/pyversions/langagent.svg)](https://pypi.org/project/langagent/)
-[![LangAgent Version](https://img.shields.io/pypi/v/langagent.svg)](https://pypi.org/project/langagent/)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/knowusuboaky/LangAgent/main.yml)](https://github.com/knowusuboaky/LangAgent/actions)
-[![Issues](https://img.shields.io/github/issues/knowusuboaky/LangAgent)](https://github.com/knowusuboaky/LangAgent/issues)
+[![langagent Version](https://img.shields.io/pypi/v/langagent.svg)](https://pypi.org/project/langagent/)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/knowusuboaky/langagent/main.yml)](https://github.com/knowusuboaky/langagent/actions)
+[![Issues](https://img.shields.io/github/issues/knowusuboaky/langagent)](https://github.com/knowusuboaky/langagent/issues)
 [![Contact](https://img.shields.io/badge/Email-Contact-blue.svg)](mailto:kwadwo.owusuboakye@outlook.com)
 
-**LangAgent** is a versatile multi-agent system designed to automate and streamline a wide range of complex tasks, including research, code generation, logical reasoning, data analysis, and dynamic reporting. Powered by advanced language models, **LangAgent** integrates seamlessly with APIs, databases, and various data formats, making it an essential tool for developers, data analysts, and business professionals to optimize workflows and extract valuable insights.
+**langagent** is a versatile multi-agent system designed to automate and streamline a wide range of complex tasks, including research, code generation, logical reasoning, data analysis, and dynamic reporting. Powered by advanced language models, **langagent** integrates seamlessly with APIs, databases, and various data formats, making it an essential tool for developers, data analysts, and business professionals to optimize workflows and extract valuable insights.
 
 ## Key Features
 
@@ -20,15 +20,15 @@
 
 ## Installation
 
-You can install the `LangAgent` package via `pip`:
+You can install the `langagent` package via `pip`:
 
 ```bash
-pip install LangAgent==2.1.1
+pip install langagent==2.1.1
 ```
 
 ## Getting Started
 
-To start using the **LangAgent** library, you need to import the agents from their respective teams. Below is a detailed guide explaining each agent, its arguments, and how to effectively use them in your projects.
+To start using the **langagent** library, you need to import the agents from their respective teams. Below is a detailed guide explaining each agent, its arguments, and how to effectively use them in your projects.
 
 ### Research Team Agents
 
@@ -43,7 +43,7 @@ The **Research Team** consists of three agents: **Researcher**, **Coder**, and *
 
     **Example**:
     ```python
-    from LangAgent.research_team.agents import researcher
+    from langagent.research_team.agents import researcher
     from langchain_openai import ChatOpenAI
     from langchain_core.messages import HumanMessage
 
@@ -57,7 +57,7 @@ The **Research Team** consists of three agents: **Researcher**, **Coder**, and *
 
 #### `Example of Resarcher Workflow`
 
-<img src="https://github.com/knowusuboaky/LangAgent/blob/main/README_files/figure-markdown/mermaid-figure-earch.png?raw=true" width="778" height="789" alt="Optional Alt Text"> 
+<img src="https://github.com/knowusuboaky/langagent/blob/main/README_files/figure-markdown/mermaid-figure-earch.png?raw=true" width="778" height="789" alt="Optional Alt Text"> 
 
 2. **Coder Agent**
     - The coder agent generates, debugs, and optimizes code based on user input. It handles various programming challenges, from basic functions to advanced tasks.
@@ -68,7 +68,7 @@ The **Research Team** consists of three agents: **Researcher**, **Coder**, and *
 
     **Example**:
     ```python
-    from LangAgent.research_team.agents import coder
+    from langagent.research_team.agents import coder
     from langchain_openai import ChatOpenAI
     from langchain_core.messages import HumanMessage
 
@@ -82,7 +82,7 @@ The **Research Team** consists of three agents: **Researcher**, **Coder**, and *
 
 #### `Example of Coder Workflow`
 
-<img src="https://github.com/knowusuboaky/LangAgent/blob/main/README_files/figure-markdown/mermaid-figure-cod.png?raw=true" width="447" height="544" alt="Optional Alt Text"> 
+<img src="https://github.com/knowusuboaky/langagent/blob/main/README_files/figure-markdown/mermaid-figure-cod.png?raw=true" width="447" height="544" alt="Optional Alt Text"> 
 
 3. **Weather Agent**
     - The weather agent fetches and interprets weather data for a specified location using API integrations.
@@ -94,7 +94,7 @@ The **Research Team** consists of three agents: **Researcher**, **Coder**, and *
 
     **Example**:
     ```python
-    from LangAgent.research_team.agents import weather
+    from langagent.research_team.agents import weather
     from langchain_openai import ChatOpenAI
     from langchain_core.messages import HumanMessage
 
@@ -108,7 +108,7 @@ The **Research Team** consists of three agents: **Researcher**, **Coder**, and *
 
 #### `Example of Weather Workflow`
 
-<img src="https://github.com/knowusuboaky/LangAgent/blob/main/README_files/figure-markdown/mermaid-figure-openwea.png?raw=true" width="757" height="792" alt="Optional Alt Text"> 
+<img src="https://github.com/knowusuboaky/langagent/blob/main/README_files/figure-markdown/mermaid-figure-openwea.png?raw=true" width="757" height="792" alt="Optional Alt Text"> 
 
 ### Logic Team Agents
 
@@ -123,7 +123,7 @@ The **Logic Team** consists of two agents: **Reasoner** and **Calculator**, both
 
     **Example**:
     ```python
-    from LangAgent.logic_team.agents import reasoner
+    from langagent.logic_team.agents import reasoner
     from langchain_openai import ChatOpenAI
     from langchain_core.messages import HumanMessage
 
@@ -137,7 +137,7 @@ The **Logic Team** consists of two agents: **Reasoner** and **Calculator**, both
 
 #### `Example of Reasoner Workflow`
 
-<img src="https://github.com/knowusuboaky/LangAgent/blob/main/README_files/figure-markdown/mermaid-figure-rea.png?raw=true" width="408" height="548" alt="Optional Alt Text"> 
+<img src="https://github.com/knowusuboaky/langagent/blob/main/README_files/figure-markdown/mermaid-figure-rea.png?raw=true" width="408" height="548" alt="Optional Alt Text"> 
 
 2. **Calculator Agent**
     - The calculator agent solves mathematical queries and calculations based on natural language inputs.
@@ -148,7 +148,7 @@ The **Logic Team** consists of two agents: **Reasoner** and **Calculator**, both
 
     **Example**:
     ```python
-    from LangAgent.logic_team.agents import calculator
+    from langagent.logic_team.agents import calculator
     from langchain_openai import ChatOpenAI
     from langchain_core.messages import HumanMessage
 
@@ -162,7 +162,7 @@ The **Logic Team** consists of two agents: **Reasoner** and **Calculator**, both
 
 #### `Example of Calculator Workflow`
 
-<img src="https://github.com/knowusuboaky/LangAgent/blob/main/README_files/figure-markdown/mermaid-figure-cal.png?raw=true" width="410" height="549" alt="Optional Alt Text"> 
+<img src="https://github.com/knowusuboaky/langagent/blob/main/README_files/figure-markdown/mermaid-figure-cal.png?raw=true" width="410" height="549" alt="Optional Alt Text"> 
 
 ### Analysis Team Agents
 
@@ -180,7 +180,7 @@ The **Analysis Team** consists of two agents: **Topic Generator** and **SQL Data
 
     **Example**:
     ```python
-    from LangAgent.analysis_team.agents import topic_generator
+    from langagent.analysis_team.agents import topic_generator
     from sentence_transformers import SentenceTransformer
     from langchain_openai import ChatOpenAI
 
@@ -200,7 +200,7 @@ The **Analysis Team** consists of two agents: **Topic Generator** and **SQL Data
 
 #### `Example of Topic Generator Workflow`
 
-<img src="https://github.com/knowusuboaky/LangAgent/blob/main/README_files/figure-markdown/mermaid-figure-topic.png?raw=true" width="335" height="730" alt="Optional Alt Text"> 
+<img src="https://github.com/knowusuboaky/langagent/blob/main/README_files/figure-markdown/mermaid-figure-topic.png?raw=true" width="335" height="730" alt="Optional Alt Text"> 
 
 2. **SQL Databaser Agent**
     - The SQL databaser agent executes SQL queries and provides insights from the results, including generating charts.
@@ -212,7 +212,7 @@ The **Analysis Team** consists of two agents: **Topic Generator** and **SQL Data
 
     **Example**:
     ```python
-    from LangAgent.analysis_team.agents import sql_databaser
+    from langagent.analysis_team.agents import sql_databaser
     from langchain_openai import ChatOpenAI
     from langchain_experimental.utilities import PythonREPL
 
@@ -242,7 +242,7 @@ The **Analysis Team** consists of two agents: **Topic Generator** and **SQL Data
 
 #### `Example of SQL Databaser Workflow`
 
-<img src="https://github.com/knowusuboaky/LangAgent/blob/main/README_files/figure-markdown/mermaid-figure-sql.png?raw=true" width="502" height="870" alt="Optional Alt Text"> 
+<img src="https://github.com/knowusuboaky/langagent/blob/main/README_files/figure-markdown/mermaid-figure-sql.png?raw=true" width="502" height="870" alt="Optional Alt Text"> 
 
 ### Reporting Team Agents
 
@@ -257,7 +257,7 @@ The **Reporting Team** consists of two agents: **Interpreter** and **Summarizer*
 
     **Example**:
     ```python
-    from LangAgent.reporting_team.agents import interpreter
+    from langagent.reporting_team.agents import interpreter
     from langchain_openai import ChatOpenAI
 
     llm = ChatOpenAI()
@@ -269,7 +269,7 @@ The **Reporting Team** consists of two agents: **Interpreter** and **Summarizer*
 
 #### `Example of Interpreter Workflow`
 
-<img src="https://github.com/knowusuboaky/LangAgent/blob/main/README_files/figure-markdown/mermaid-figure-inte.png?raw=true" width="403" height="546" alt="Optional Alt Text"> 
+<img src="https://github.com/knowusuboaky/langagent/blob/main/README_files/figure-markdown/mermaid-figure-inte.png?raw=true" width="403" height="546" alt="Optional Alt Text"> 
 
 2. **Summarizer Agent**
     - The summarizer agent summarizes documents like PDFs, PPT, DOCX, TXT files or Plain Text into concise, actionable insights.
@@ -280,7 +280,7 @@ The **Reporting Team** consists of two agents: **Interpreter** and **Summarizer*
 
     **Example**:
     ```python
-    from LangAgent.reporting_team.agents import summarizer
+    from langagent.reporting_team.agents import summarizer
     from langchain_openai import ChatOpenAI
 
     llm = ChatOpenAI()
@@ -296,7 +296,7 @@ The **Reporting Team** consists of two agents: **Interpreter** and **Summarizer*
 
 #### `Example of Summarizer Workflow`
 
-<img src="https://github.com/knowusuboaky/LangAgent/blob/main/README_files/figure-markdown/mermaid-figure-sum.png?raw=true" width="358" height="535" alt="Optional Alt Text"> 
+<img src="https://github.com/knowusuboaky/langagent/blob/main/README_files/figure-markdown/mermaid-figure-sum.png?raw=true" width="358" height="535" alt="Optional Alt Text"> 
 
 ### Supervisor Chain
 
@@ -313,7 +313,7 @@ The **Supervisor Chain** manages the workflow between multiple agents. It select
 
 **Example**:
 ```python
-from LangAgent.supervisor import supervisor_chain
+from langagent.supervisor import supervisor_chain
 from langchain_openai import ChatOpenAI
 
 llm = ChatOpenAI()
@@ -337,11 +337,11 @@ supervisor = supervisor_chain(
 
 #### `Example of Supervision Workflow`
 
-<img src="https://github.com/knowusuboaky/LangAgent/blob/main/README_files/figure-markdown/mermaid-figure-4.png?raw=true" width="802" height="481" alt="Optional Alt Text">
+<img src="https://github.com/knowusuboaky/langagent/blob/main/README_files/figure-markdown/mermaid-figure-4.png?raw=true" width="802" height="481" alt="Optional Alt Text">
 
 ## Dependencies
 
-LangAgent relies on several core libraries, including:
+langagent relies on several core libraries, including:
 - **LangChain** for agent creation and task management.
 - **Sentence Transformers** for text embedding.
 - **SQLAlchemy** for database interactions.
@@ -356,7 +356,7 @@ pip install -r requirements.txt
 
 ## Contributing
 
-We welcome contributions to LangAgent! If you'd like to contribute:
+We welcome contributions to langagent! If you'd like to contribute:
 1. Fork the repository.
 2. Create a branch for your feature (`git checkout -b feature/new-feature`).
 3. Commit your changes (`git commit -m "Add new feature"`).
@@ -373,4 +373,4 @@ For any inquiries or issues, please contact:
 
 - **Author**: Kwadwo Daddy Nyame Owusu - Boakye
 - **Email**: [kwadwo.owusuboakye@outlook.com](mailto:kwadwo.owusuboakye@outlook.com)
-- **GitHub**: [https://github.com/knowusuboaky/LangAgent](https://github.com/knowusuboaky/LangAgent)
+- **GitHub**: [https://github.com/knowusuboaky/langagent](https://github.com/knowusuboaky/langagent)
