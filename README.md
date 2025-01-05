@@ -23,7 +23,7 @@
 You can install the `langagent` package via `pip`:
 
 ```bash
-pip install langagent==2.1.1
+pip install langagent==2.1.6
 ```
 
 ## Getting Started
