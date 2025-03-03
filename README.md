@@ -1,4 +1,4 @@
-# LangAgent 3.1.3
+# LangAgent 3.2.0
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Versions](https://img.shields.io/pypi/pyversions/langagent.svg)](https://pypi.org/project/langagent/)
@@ -24,7 +24,7 @@
 You can install the `langagent` package via `pip`:
 
 ```bash
-pip install langagent==3.1.3
+pip install langagent==3.2.0
 ```
 
 ## Getting Started
