@@ -3,9 +3,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Versions](https://img.shields.io/pypi/pyversions/langagent.svg)](https://pypi.org/project/langagent/)
 [![LangAgent Version](https://img.shields.io/pypi/v/langagent.svg)](https://pypi.org/project/langagent/)
+[![Downloads](https://img.shields.io/pypi/dm/langagent.svg?label=Downloads)](https://pypi.org/project/langagent/#files)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/knowusuboaky/LangAgent/main.yml)](https://github.com/knowusuboaky/LangAgent/actions)
 [![Issues](https://img.shields.io/github/issues/knowusuboaky/LangAgent)](https://github.com/knowusuboaky/LangAgent/issues)
 [![Contact](https://img.shields.io/badge/Email-Contact-blue.svg)](mailto:kwadwo.owusuboakye@outlook.com)
+
 
 **LangAgent** is a versatile multi-agent system designed to automate and streamline a wide range of complex tasks, including research, code generation, logical reasoning, data analysis, dynamic reporting, trading, and business intelligence. Powered by advanced language models, **LangAgent** integrates seamlessly with APIs, databases, and various data formats, making it an essential tool for developers, data scientists, traders, and business professionals looking to optimize workflows and extract actionable insights.
 
